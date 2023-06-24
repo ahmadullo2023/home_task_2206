@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-
 import 'home_page2.dart';
 import 'home_page3.dart';
 
-class HomePage1 extends StatefulWidget {
-  const HomePage1({Key? key}) : super(key: key);
+
+class FirstPage extends StatefulWidget {
+  const FirstPage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage1> createState() => _HomePage1State();
+  State<FirstPage> createState() => _FirstPageState();
 }
-class _HomePage1State extends State<HomePage1> {
+class _FirstPageState extends State<FirstPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +45,7 @@ class _HomePage1State extends State<HomePage1> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (BuildContext context) => const HomePage3(),
+                      builder: (BuildContext context) => const LogInPage(),
                     ),
                   );
                 },
@@ -68,7 +68,7 @@ class _HomePage1State extends State<HomePage1> {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (BuildContext context) => const HomePage2(),
+                        builder: (BuildContext context) => const CreatPage(),
                     ),
                   );
                 },

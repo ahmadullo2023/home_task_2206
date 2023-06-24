@@ -2,14 +2,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:home_task_2206/ui1/home_page3.dart';
 
-class HomePage2 extends StatefulWidget {
-  const HomePage2({Key? key}) : super(key: key);
+class CreatPage extends StatefulWidget {
+  const CreatPage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage2> createState() => _HomePage2State();
+  State<CreatPage> createState() => _CreatPageState();
 }
 
-class _HomePage2State extends State<HomePage2> {
+class _CreatPageState extends State<CreatPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,7 +83,7 @@ class _HomePage2State extends State<HomePage2> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const HomePage3(),
+                    builder: (context) => const LogInPage(),
                   ),
                 );
               },

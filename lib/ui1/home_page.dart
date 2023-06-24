@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     Future.delayed(const Duration(seconds: 5)).then((value) {
       Navigator.pushReplacement(context,
-          MaterialPageRoute(builder: (builder) => const HomePage1()));
+          MaterialPageRoute(builder: (builder) => const FirstPage()));
     });
   }
   @override

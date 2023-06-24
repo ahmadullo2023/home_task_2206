@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'home_page2.dart';
 
-class HomePage3 extends StatefulWidget {
-  const HomePage3({Key? key}) : super(key: key);
+class LogInPage extends StatefulWidget {
+  const LogInPage({Key? key}) : super(key: key);
 
   @override
-  State<HomePage3> createState() => _HomePage3State();
+  State<LogInPage> createState() => _LogInPageState();
 }
 
-class _HomePage3State extends State<HomePage3> {
+class _LogInPageState extends State<LogInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -66,7 +66,7 @@ class _HomePage3State extends State<HomePage3> {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const HomePage2(),
+                    builder: (context) => const CreatPage(),
                   ),
                 );
               },
